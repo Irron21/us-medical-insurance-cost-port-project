@@ -6,7 +6,7 @@ This is a [course portfolio starter project](https://discuss.codecademy.com/c/pr
 
 ### The procedures that I have done to construct this project:
 1. Import [csv](https://docs.python.org/3/library/csv.html) library to help ;
-2. Extract the content of the [insurance.csv](https://github.com/Irron21/us-medical-insurance-cost-data-analysis/blob/main/python-portfolio-project-starter-files/insurance.csv) file
+2. Extract the content of the [insurance.csv](https://github.com/Irron21/us-medical-insurance-cost-data-analysis/blob/main/us-medical-insurance-cost-project-files/insurance.csv) file
 3. Iterate through every row of the dataset then assign it as a value of each unique key ID
 ```python
 import csv
