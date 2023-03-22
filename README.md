@@ -117,5 +117,5 @@ A: 39 is the average age for individuals that has at least 1 children
 ![image](https://user-images.githubusercontent.com/106497944/226794192-f87e4e3d-9f03-401c-9ac3-28afbe8e9a84.png)
 3. Once finished downloading, extract the zip file.
 4. Setup your Visual Studio Code by referring to this [article](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_setting-up-your-environment)
-5. Once settled, you can now open the project folder in Visual Studio Code
+5. Once settled, you can now open the project folder in Visual Studio Code!
 
