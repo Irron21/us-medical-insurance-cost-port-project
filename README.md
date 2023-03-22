@@ -60,7 +60,7 @@ def region_frq(var):
 
 print(region_frq("region"))
 max_frq_region_key = max(region_count, key=region_count.get)
-print("The majority of the individuals are from the " + max_frq_region_key+ " with the count of " + str(max(region_count.values())))
+print("The majority of the individuals are from the " + max_frq_region_key + " with the count of " + str(max(region_count.values())))
 ```
 A: southwest: 325 | southeast: 364 | northwest: 325 | northeast: 324 <br>
 A: The majority of the individuals are from the southeast with the count of 364.
@@ -68,7 +68,7 @@ A: The majority of the individuals are from the southeast with the count of 364.
 ---
 
 Q: The sum of charges for both smokers and non-smokers. <br>
-Q: The sum of charges for both smokers and non-smokers and its difference to each other.
+Q: The difference of sum to each smoker category.
 ```python
 total_cost_smoker = {}
 def smoker_cost_difference(var1, var2):
