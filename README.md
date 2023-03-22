@@ -111,3 +111,11 @@ print(str(avg_age) + " is the average age for individuals that has atleast 1 chi
 ```
 A: 39 is the average age for individuals that has at least 1 children
 
+## How to install the project
+1. Install [Visual Studio Code](https://code.visualstudio.com/) or you can watch this [tutorial video](https://www.youtube.com/watch?v=JPZsB_6yHVo)
+2. Download the project file by copying its [url](https://github.com/Irron21/us-medical-insurance-cost-data-analysis/tree/main/python-portfolio-project-starter-files) and navigate into https://download-directory.github.io/ and paste the url of the project directory to the input box then hit enter. <br><br>
+![image](https://user-images.githubusercontent.com/106497944/226794192-f87e4e3d-9f03-401c-9ac3-28afbe8e9a84.png)
+3. Once finished downloading, extract the zip file.
+4. Setup your Visual Studio Code by referring to this [article](https://code.visualstudio.com/docs/datascience/jupyter-notebooks#_setting-up-your-environment)
+5. Once settled, you can now open the project folder in Visual Studio Code
+
