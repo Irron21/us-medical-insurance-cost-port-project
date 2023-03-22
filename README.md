@@ -10,24 +10,6 @@ This is a [course portfolio starter project](https://discuss.codecademy.com/c/pr
 3. Iterate through every value of each key to pass it as a parameter to each function
 4. Construct different functions to make calculations within the scope of the analysis idea, thus, giving us its findings
 
-### Summary of targets and findings:
-**Q:** Find out the average age of the patients in the dataset. <br>
-**A:** The average age in the dataset is: 39
+### Summary of targets and findings: 
+<a href="https://docs.google.com/document/d/10XJkHlauEu9gtuUMSbYRlw2VFZjoKvTwdV3w42fmi3w/edit?usp=sharing" target="_blank">google_docs</a>
 
-**Q:** Find out the average bmi of the patients in the dataset. <br>
-**A:** The average bmi in the dataset is: 30.66
-
-**Q:** Count the frequency of each region that appeared in the dataset. <br>
-**A:** southwest: 325 | southeast: 364 | northwest: 325 | northeast: 324
-
-**Q:** Analyze where a majority of the individuals are from. <br>
-**A:** The majority of the individuals are from southeast with the count of 364.
-
-**Q:** The sum of charges for both smokers and non-smokers. <br>
-**A:** smoker: $8764878.59784, non-smoker: $8972335.916618997
-
-**Q:** The sum of charges for both smokers and non-smokers and its difference to each other. <br>
-**A:** smoker: $8764878.60, non-smoker: $8972335.92 | The difference cost between a smoker and a non-smoker is: $207457.32
-
-**Q:** Figure out what the average age is for someone who has at least one child in this dataset. <br>
-**A:** 39 is the average age for individuals that has atleast 1 children
