@@ -47,7 +47,7 @@ The dataset contains each patient's medically relevent information and other inf
 
 ---
 
-**Q:** Figure out what the average age is for someone who has at least one child in this dataset.
+**Q:** Figure out what the average age is for someone who has at least one child in this dataset. <br>
 **A:** <ins>39</ins> is the average age for individuals that has at least 1 children
 
 ## How to install the project
