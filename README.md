@@ -35,9 +35,9 @@ def get_average(var):
     return average
     
 age_average = int(get_average("age"))
-print("The average age in the dataset is: " + str(age_average))
+print(f"The average age in the dataset is: {age_average}")
 bmi_average = get_average("bmi")
-print("The average bmi in the dataset is: " + str(bmi_average))
+print(f"The average bmi in the dataset is: {round(bmi_average, 2)}")
 ```
 
 A: The average age in the dataset is: 39 <br>
@@ -60,33 +60,46 @@ def region_frq(var):
 
 print(region_frq("region"))
 max_frq_region_key = max(region_count, key=region_count.get)
-print("The majority of the individuals are from the " + max_frq_region_key + " with the count of " + str(max(region_count.values())))
+print(f"The majority of the individuals are from the {max_frq_region_key} with the count of {max(region_count.values())}")
 ```
 A: southwest: 325 | southeast: 364 | northwest: 325 | northeast: 324 <br>
 A: The majority of the individuals are from the southeast with the count of 364.
 
 ---
 
-Q: The sum of charges for both smokers and non-smokers. <br>
-Q: The difference of sum to each smoker category.
+Q: The average charge for smokers and non-smokers. <br>
+Q: The difference of the average charge between smokers and non-smokers.
 ```python
-total_cost_smoker = {}
+# a function to sum the total charge between 2 smoker categories
+total_cost_smoker = {"yes": 0, "no": 0}
 def smoker_cost_difference(var1, var2):
     for values in dictionary_data.values():
         smoker = values[var1]
         cost = values[var2]
-        if smoker in total_cost_smoker:
-            total_cost_smoker[smoker] += float(cost)
-        else:
-            total_cost_smoker[smoker] = 0
-    return str(total_cost_smoker)
+        total_cost_smoker[smoker] += float(cost)
 
-print(smoker_cost_difference("smoker", "charges"))
-charge_difference_smoker = total_cost_smoker["no"] - total_cost_smoker["yes"]
-print("The difference cost between a smoker and a non-smoker is: $" + str(charge_difference_smoker))
+    return total_cost_smoker
+
+smoker_cost_difference("smoker", "charges")
+
+# calculate the average of "yes"
+total_cost_yes = total_cost_smoker["yes"]
+num_records_yes = sum(1 for values in dictionary_data.values() if values["smoker"] == "yes")
+average_cost_yes = total_cost_yes / num_records_yes
+print(f"The average cost for smokers is: ${round(average_cost_yes, 2)}")
+
+# calculate the average of "no"
+total_cost_no = total_cost_smoker["no"]
+num_records_no = sum(1 for values in dictionary_data.values() if values["smoker"] == "no")
+average_cost_no = total_cost_no / num_records_no
+print(f"The average cost for non-smokers is: ${round(average_cost_no, 2)}" )
+
+# differentiate the total charge between the 2 smoker categories
+charge_difference = average_cost_yes - average_cost_no
+print(f"The charge difference between smokers and non-smokers is: ${round(charge_difference, 2)}")
 ```
-A: smoker: $8764878.59784 | non-smoker: $8972335.916618997 <br>
-A: The difference cost between a smoker and a non-smoker is: $207457.3187789973
+A: The average cost for smokers is: $32050.23 | The average cost for non-smokers is: $8434.27 <br>
+A: The charge difference between smokers and non-smokers is: $23615.96
 
 ---
 
@@ -107,7 +120,7 @@ def avg_age_w_child(var1, var2):
     return total_age, int(avg_age)
 
 total_age, avg_age = avg_age_w_child("age", "children")
-print(str(avg_age) + " is the average age for individuals that has atleast 1 children")
+print(f"{avg_age} is the average age for individuals that has atleast 1 children")
 ```
 A: 39 is the average age for individuals that has at least 1 children
 
