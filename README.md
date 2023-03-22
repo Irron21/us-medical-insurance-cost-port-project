@@ -2,7 +2,7 @@
 
 ## A functional project made to investigate findings in the given dataset of the US Medical Insurance Cost.
 
-This is a [course portfolio starter project](https://discuss.codecademy.com/c/project/portfolio-project-python-project/1908) that was built in [jupyter notebook](https://jupyter.org/) document using visual studio code as the code editor. Every function in this project are developed to perform different calculation to show result of different ideas for analyzation of the [given dataset](https://raw.githubusercontent.com/Irron21/us-medical-insurance-cost-data-analysis/main/python-portfolio-project-starter-files/insurance.csv).
+This is a [course portfolio starter project](https://discuss.codecademy.com/c/project/portfolio-project-python-project/1908) that was built in [jupyter notebook](https://jupyter.org/) document using visual studio code as the code editor. Every function in this project are developed to perform different calculation to show result of different ideas for analyzation of the [given dataset](https://raw.githubusercontent.com/Irron21/us-medical-insurance-cost-data-analysis/main/us-medical-insurance-cost-project-files/insurance.csv).
 
 ### The procedures that I have done to construct this project:
 1. Import [csv](https://docs.python.org/3/library/csv.html) library to help ;
