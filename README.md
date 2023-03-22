@@ -85,8 +85,8 @@ print(smoker_cost_difference("smoker", "charges"))
 charge_difference_smoker = total_cost_smoker["no"] - total_cost_smoker["yes"]
 print("The difference cost between a smoker and a non-smoker is: $" + str(charge_difference_smoker))
 ```
-A: smoker: $8764878.60 | non-smoker: $8972335.92 <br>
-A: The difference cost between a smoker and a non-smoker is: $207457.32
+A: smoker: $8764878.59784 | non-smoker: $8972335.916618997 <br>
+A: The difference cost between a smoker and a non-smoker is: $207457.3187789973
 
 ---
 
