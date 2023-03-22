@@ -2,7 +2,7 @@
 
 ## A functional project made to investigate findings in the given dataset of the US Medical Insurance Cost.
 
-This is a [course portfolio starter project](https://discuss.codecademy.com/c/project/portfolio-project-python-project/1908) that was built in [jupyter notebook](https://jupyter.org/) document using visual studio code as the code editor. Every function in this project are developed to perform different calculation to show result of different ideas for analyzation of the given dataset.
+This is a [course portfolio starter project](https://discuss.codecademy.com/c/project/portfolio-project-python-project/1908) that was built in [jupyter notebook](https://jupyter.org/) document using visual studio code as the code editor. Every function in this project are developed to perform different calculations to showcase result of different ideas for analyzation of the US Medical Insurance Cost dataset. 
 
 ## [US Medical Insurance Cost Dataset](https://raw.githubusercontent.com/Irron21/us-medical-insurance-cost-data-analysis/main/us-medical-insurance-cost-project-files/insurance.csv)
 The dataset contains each patient's medically relevent information and other information.
@@ -14,8 +14,13 @@ The dataset contains each patient's medically relevent information and other inf
 * **region** - the locale of the patient
 * **charges** - the insurance cost of the patient
 
+With the given dataset, we can bring out several implementations like: 
+1. The average age and bmi of the patients
+2. Finding out where the majority of the patients are from by counting the frequency of each region
+3. The average charge for smokers and non-smokers and the difference between the given average of both smokers and non-smokers
+4. The average age for someone who has at least one children
 
-### The procedures that I have done to construct this project:
+## Procedures
 1. Import [csv](https://docs.python.org/3/library/csv.html) library to help ;
 2. Extract the content of the [insurance.csv](https://github.com/Irron21/us-medical-insurance-cost-data-analysis/blob/main/us-medical-insurance-cost-project-files/insurance.csv) file
 3. Iterate through every row of the dataset then assign it as a value of each unique key ID
